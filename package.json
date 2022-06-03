@@ -1,0 +1,30 @@
+{
+  "name": "electron-music",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node ./script/dev",
+    "start": "node ./script/dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "electron": "^19.0.2",
+    "esbuild": "^0.14.42",
+    "eslint": "^8.16.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.52.1",
+    "typescript": "^4.7.2",
+    "vite": "^2.9.9",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.15",
+    "vue-tsc": "^0.35.2"
+  }
+}

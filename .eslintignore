@@ -1,0 +1,10 @@
+node_modules
+dist
+release
+resource
+*.css
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.d.ts

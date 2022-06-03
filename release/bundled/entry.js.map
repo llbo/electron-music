@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/main/entry.ts"],
+  "sourcesContent": ["console.log('entry-----')\r\n"],
+  "mappings": "AAAA,QAAQ,IAAI,YAAY",
+  "names": []
+}
