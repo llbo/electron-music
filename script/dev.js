@@ -24,7 +24,7 @@ const dev = {
   },
   buildProcessEntry() {
     const esbuild = require('esbuild')
-    const entryFilePath = path.join(process.cwd(), 'src/main/entry.ts')
+    const entryFilePath = path.join(process.cwd(), 'src/main/Entry.ts')
     const outfile = path.join(process.cwd(), 'release/bundled/entry.js')
     esbuild.buildSync({
       entryPoints: [entryFilePath],
